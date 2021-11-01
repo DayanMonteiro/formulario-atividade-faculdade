@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <form >
+        
+        <div id="container" >
+            <h1>Formulário de cadastro</h1>
+
+        <div class="contentInit">
+            <h3>Dados pessoais </h3>
+            <label class="name">
+                Nome <input type="text" placeholder="Digite seu nome"  />
+            </label>
+            <label class="fone" >
+                Telefone fixo <input type="tel" placeholder="(xx) xxxx-xxxx"  />
+                <br />
+                 Celular <input type="tel" placeholder="(xx) xxxxx-xxxx"  />
+            </label>
+
+        </div>
+      
+        <label class="address">
+            <h3 color="red">Endereço</h3>
+            <div class="addressItems">   
+            <br />
+            Logradouro <input class="publicPlace" type="text" placeholder="digite sua rua, av, estrada etc.." />
+            <br />
+            Número <input class="residenceNumber" type="text" placeholder="xxxxxx" />
+            <br />
+            Complemento  <input class="complement" type="text" placeholder="ex: bloco 1 / fundos / casa 2 etc" />
+            <br />
+            Cep <input class="cep" type="text" placeholder="xx.xxx-xxx" />
+            <br />
+            Bairro <input type="text" placeholder="digite seu bairro" />
+            <br />
+            Cidade  <input class="city" type="text" placeholder="digite sua cidade" />
+           <br /> 
+            Estado <input type="text" placeholder="digite seu estado" />
+        </div>
+        <button type="submit" class="enviar" onclick="Enviar()">Enviar</button>
+        </label>
+      </form>
+    </div>   
+</body>
+</html>

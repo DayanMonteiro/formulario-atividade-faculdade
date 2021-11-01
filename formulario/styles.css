@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    height: 600px;
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-bottom: -20px;
+}
+
+#container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.contentInit {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: -8rem;
+    line-height: 2.5rem;
+    margin-left: -10px;
+}
+
+.contentInit h3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    line-height: 1.5rem;
+}
+
+.fone input {
+    width: 8rem;
+}
+
+.address {
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-left: -18rem;
+    margin-bottom: 0.5rem;
+}
+
+.publicPlace {
+    width: 17rem;
+}
+
+.addressItems {
+    margin-top: -50px;
+}
+
+.residenceNumber {
+    width: 5rem;
+}
+
+.complement {
+    width: 16rem;
+}
+
+.cep {
+    width: 7rem;
+}
+
+.city {
+    width: 19.7rem;
+}
+
+input {
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    padding-left: 3px;
+}
+
+button {
+    margin-top: 1rem;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #635e5d;
+    color: #ffffff;
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+
+button:hover {
+    filter: brightness(0.9);
+    background-color: #ffffff;
+    color: #635e5d ;
+}
